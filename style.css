@@ -1,5 +1,34 @@
 
-.wert{
-    display: flex;
-    justify-content: space-between;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* font-family: "DM Sans", sans-serif; */
+
+:root{
+   --dmsans:"DM Sans", sans-serif; 
+}
+
+body{
+    overflow-x: none;
+    overflow-y: hidden;
+}
+.col-6 h1{
+    font-size: 60px;
+    font-family: var(--dmsans);
+    line-height: 100pxs;
+    width: 70%;
+    margin-top: 2rem;
+    color: #1E0E62;
+}
+
+.col-6 p{
+font-family: var(--dmsans);
+font-size: 22px;
+line-height: 32px;
+width: 50%;
+color: #15143966;
+
+}
+
+.col-6 button{
+    margin-top: 2rem;
 }
