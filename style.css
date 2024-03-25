@@ -11,6 +11,32 @@ body{
     overflow-x: none;
     overflow-y: hidden;
 }
+
+
+.navbar-nav{
+font-size: 20px;
+font-family: var(--dmsans);
+    
+}
+
+.navbar-nav li a .nav-linkactive{
+    color:#1E0E62;
+
+}
+.navbar-nav li a{
+    color:#1E0E62;
+}
+
+.navbar-brand{
+font-size: 30px;
+font-family: var(--dmsans);
+color: #1E0E62;
+
+}
+.navbar-collapse button{
+background-color: #482BE7;
+border-radius: 999px;
+}
 .col-6 h1{
     font-size: 60px;
     font-family: var(--dmsans);
@@ -31,4 +57,10 @@ color: #15143966;
 
 .col-6 button{
     margin-top: 2rem;
+    border-radius: 999px;
+    background-color: #25DAC5;
+}
+
+.col-6 button.btn-light{
+    background-color: transparent;
 }
